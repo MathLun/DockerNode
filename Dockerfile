@@ -1,4 +1,4 @@
-FROM node
+FROM node:latest
 
 RUN mkdir -p $HOME/htam/dockernode/node_modules && chown -R node:node $HOME/htam/dockernode
 
